@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 100%;
+}
+
+div {
+    display: block;
+    margin: 16px;
+}
+
+form {
+    padding: 12px;
+}
+
+#dice_cup {
+    font-size: 72px;
+}
+
+.die {
+    display: inline-block;
+}

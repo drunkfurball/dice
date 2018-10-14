@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Dice</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    </head>
+
+    <body>
+        <div>
+            <form name="controller">
+                <input name="num" id="num" type="text" />
+                <button type="button" onclick="rollDice();">Roll Dice</button>
+                <input name="guess" id="guess" type="text" />
+                <button type="button" onclick="checkPetals();">Guess</button>
+            </form>
+        </div>
+        <div id="dice_cup" >
+            
+        </div>
+        <canvas id="canv" width="800" height="400">
+
+        </canvas>
+
+        <script src="js/script.js" type="text/javascript" ></script>
+    </body>
+
+</html>
